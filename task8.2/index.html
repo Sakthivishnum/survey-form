@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acquios Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="assets/logo.png" alt="Acquios Logo" width="100px" height="100px"></img>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="firstName">First Name*</label>
+            <input type="text" id="firstName" required>
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name*</label>
+            <input type="text" id="lastName" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address*</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+            <label>How was your overall experience?*</label>
+            <div class="star-rating">★★★★☆</div>
+        </div>
+        <div class="form-group">
+            <label>Was our representative (check all that apply):</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Professional and courteous?</label>
+                <label><input type="checkbox"> Patient?</label>
+                <label><input type="checkbox"> Knowledgeable?</label>
+                <label><input type="checkbox"> Warm and respectful?</label>
+                <label><input type="checkbox"> Friendly?</label>
+                <label><input type="checkbox"> Clear and direct?</label>
+                <label><input type="checkbox"> Efficient?</label>
+            </div>
+        </div>
+        <button type="submit" class="submit-btn">Submit Feedback</button>
+    </form>
+</body>
+</html>
